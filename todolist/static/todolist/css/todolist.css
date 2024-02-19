@@ -1,0 +1,20 @@
+
+h1{
+    color: blue;
+}
+
+aside{
+    float:left;
+    background: azure;
+    width: 100%;
+    padding: 2.5%;
+    height: 10%;
+    color: #fff;
+    border-bottom: 5 px solid brown;
+
+}
+
+aside img{
+    width: 100px;
+    height: 100px;
+}
