@@ -16,6 +16,12 @@ def about(request):
 def home(request):
     return render(request, 'todolist/homepage.html')
 
+# HOMEWORK
+
+def nodes(request):
+    return HttpResponse("Hello from Notes app.")
+
+# HOMEWORK
 
 def get_name(request):
     if request.method == "POST":
